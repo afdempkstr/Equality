@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equality", "Equality\Equality.csproj", "{BDE1812E-7740-436E-9FD7-68D941D01AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEquatableDemo", "IEquatableDemo\IEquatableDemo.csproj", "{8581173A-9D2E-4733-920A-8C38B8D3A449}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{BDE1812E-7740-436E-9FD7-68D941D01AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE1812E-7740-436E-9FD7-68D941D01AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE1812E-7740-436E-9FD7-68D941D01AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8581173A-9D2E-4733-920A-8C38B8D3A449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8581173A-9D2E-4733-920A-8C38B8D3A449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8581173A-9D2E-4733-920A-8C38B8D3A449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8581173A-9D2E-4733-920A-8C38B8D3A449}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2677DDA5-1F29-48E3-A425-97C9B66264B1}
 	EndGlobalSection
 EndGlobal
